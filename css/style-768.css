@@ -1,0 +1,244 @@
+@media (min-width: 641px) {
+
+  body {
+    font-family: 'OpenSans-Regular', sans-serif;
+  }
+  
+  .main-header {
+    height: 960px;
+    padding: 40px 57px 0;
+    background-image: url(../images/football_1280.jpg);
+  }
+
+  .logo-text {
+    width: 205px;
+    height: 56px;
+  }
+
+  .main-header-text {
+    width: 100%;
+    margin: 22.1vw auto 39.7vw;
+    font-size: 8.3vw;
+    letter-spacing: 3.2px;
+  }
+  
+  .first-row {
+    margin-left: 4.3vw;
+    margin-bottom: 10px;
+  }
+  
+  .second-row {
+    margin-left: 18.2vw;
+  }
+
+  .btn-container {
+    max-width: 100%;
+    justify-content: space-between;
+  }
+
+  .btn-link {
+    max-width: 311px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .btn {
+    max-width: 311px;
+    height: 77px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    box-shadow: 8px 13.9px 24px 0 #0a0e34;
+  }
+
+  .btn-text {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+  }
+
+  .btn-content {
+    width: 220px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .apple-logo, .google-logo {
+    width: 40px;
+    margin-right: 26px;
+  }
+  
+  .app-store-btn .btn-text {
+    width: 150px;
+  }
+  
+  .google-play-btn .btn-text {
+    width: 104px;
+  }
+
+  .article {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .athlets .benefits-img-container {
+    width: 440px;
+    position: absolute;
+    top: 90px;
+    left: -165px;
+  }
+
+  .players .benefits-img-container {
+    width: 690px;
+    position: absolute;
+    top: 40px;
+    right: -255px;
+  }
+
+  .benefits-title {
+    margin-top: 82px;
+    font-size: 80px;
+    line-height: 0.75;
+  }
+
+  .athlets .benefits-title {
+    padding-left: 293px;
+  }
+
+  .players .benefits-title {
+    padding-left: 35px;
+  }
+
+  .article-title {
+    margin-bottom: 10px;
+    font-size: 32px;
+    letter-spacing: 1.6px;
+  }
+
+  .article-index-number {
+    font-size: 18px;
+    line-height: 1.89;
+    letter-spacing: 0.9px;
+  }
+
+  .article-index-number::before {
+    bottom: -7px;
+    width: 21px;
+    height: 5px;
+    border-radius: 2px;
+  }
+
+  .article-content:nth-child(1) {
+    background-color: transparent; 
+  }
+
+  .athlets .article-content {
+    padding: 40px 32px 40px 293px;
+    width: 100%
+  }
+
+  .players .article-content {
+    padding: 40px 0 40px 35px;
+    width: 100%
+  }
+
+  .article-text {
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+  }
+
+  .players .article-text {
+    width: 55%;
+  }
+
+  .opportunities-content {
+    padding: 0 35px 95px 30px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .index-number {
+    width: 116px;
+    height: 116px;
+    padding-top: 35px;
+    top: -170px;
+  }
+  
+  .index-number>span {
+    font-size: 24px;
+    line-height: 1.42;
+    letter-spacing: 1.2px;
+  }
+  
+  .index-number>span::before {
+    width: 28px;
+    height: 5px;
+    opacity: 0.3;
+    bottom: -10px;
+    border-radius: 2px;
+  }
+  
+  .opportunities-title {
+    margin: 90px 0 40px;
+    font-size: 80px;
+    line-height: 0.75;
+    letter-spacing: normal;
+  }
+  
+  .opportunities-text {
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 1.2px;
+  }
+
+  .main-footer {
+    height: 960px;
+    padding: 0 30px;
+    background-image: url(../images/game_1280.jpg);
+  }
+
+  .app-icon {
+    width: 130px;
+    height: 137px;
+    margin: 125px auto 0;
+  }
+
+  .logo {
+    height: 85px;
+    margin: 26px auto;
+  }
+
+  .footer-title {
+    margin-top: 85px;
+    font-size: 80px;
+    line-height: 0.75;
+    letter-spacing: 4.4px;
+  }
+  
+  .footer-text {
+    margin-bottom: 255px;
+    font-size: 36.5px;
+    line-height: 1.64;
+    letter-spacing: normal;
+  }
+
+  .logo-text:nth-last-child(1) {
+    margin-top: 57px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}

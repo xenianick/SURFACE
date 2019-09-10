@@ -15,11 +15,11 @@
     height: 56px;
   }
 
-  .main-header-text {
+  .main-header-title {
     width: 100%;
     margin: 22.1vw auto 39.7vw;
     font-size: 8.3vw;
-    letter-spacing: 3.2px;
+    letter-spacing: 0.40vw;
   }
   
   .first-row {
@@ -28,24 +28,29 @@
   }
   
   .second-row {
-    margin-left: 18.2vw;
+    margin-left: 17.9vw;
   }
 
   .btn-container {
+    flex-wrap: nowrap;
     max-width: 100%;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .btn-link {
     max-width: 311px;
-    margin-left: 0;
-    margin-right: 0;
+    width: 40.5vw;
+  }
+
+  .btn-link:nth-child(1) {
+    margin-right: 30px;
   }
 
   .btn {
+    flex-shrink: 1;
+    width: 40.5vw;
     max-width: 311px;
     height: 77px;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     border-radius: 35px;
@@ -82,6 +87,7 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    z-index: 11;
   }
 
   .athlets .benefits-img-container {
@@ -92,10 +98,17 @@
   }
 
   .players .benefits-img-container {
-    width: 690px;
+    width: 440px;
+    height: auto;
+    overflow-x: hidden;
     position: absolute;
+    z-index: 10;
     top: 40px;
-    right: -255px;
+    right: 0;
+  }
+
+  .players .benefits-img {
+    width: 690px;
   }
 
   .benefits-title {
@@ -136,7 +149,7 @@
   }
 
   .athlets .article-content {
-    padding: 40px 32px 40px 293px;
+    padding: 40px 0 40px 293px;
     width: 100%
   }
 
@@ -149,6 +162,10 @@
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.8px;
+  }
+
+  .athlets .article-text {
+    width: 94%;
   }
 
   .players .article-text {
@@ -204,7 +221,7 @@
   .app-icon {
     width: 130px;
     height: 137px;
-    margin: 125px auto 0;
+    margin: 16.27vw auto 0;
   }
 
   .logo {
@@ -213,32 +230,37 @@
   }
 
   .footer-title {
-    margin-top: 85px;
-    font-size: 80px;
+    margin-top: 11vw;
+    font-size: 10.4vw;
     line-height: 0.75;
-    letter-spacing: 4.4px;
+    letter-spacing: 0.57vw;
   }
   
   .footer-text {
-    margin-bottom: 255px;
-    font-size: 36.5px;
+    margin-bottom: 33.2vw;
+    font-size: 4.75vw;
     line-height: 1.64;
     letter-spacing: normal;
   }
+}
 
-  .logo-text:nth-last-child(1) {
-    margin-top: 57px;
+@media (min-width: 769px) {
+  .main-header-title {
+    width: 700px;
+    margin: 169px auto 305px;
+    font-size: 64px;
+  }
+  
+  .first-row {
+    margin-left: 33px;
   }
 
+  .second-row {
+    width: 80%;
+    margin-left: 140px;
+  }
 
-
-
-
-
-
-
-
-
-
-
+  .main-footer {
+    height: 125vw;
+  }
 }

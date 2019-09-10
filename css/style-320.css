@@ -34,7 +34,7 @@ body {
   z-index: 4;
 }
 
-.main-header-text {
+.main-header-title {
   width: 280px;
   margin: 136px auto 89px;
   position: relative;
@@ -58,7 +58,6 @@ body {
 }
 
 .btn-container {
-  width: 87.5vw;
   max-width: 280px;
   margin: 0 auto;
   display: flex;
@@ -66,7 +65,6 @@ body {
 }
 
 .btn-link {
-  width: 87.5vw;
   max-width: 280px;
   margin: 0 auto 14px;
   display: block;
@@ -146,16 +144,17 @@ body {
 }
 
 .benefits-img-container {
-  height: 223px;
   margin: 0 auto;
   display: block;
 }
 
 .athlets .benefits-img-container {
+  height: 250px;
   width: 192px;
 }
 
 .players .benefits-img-container {
+  height: 223px;
   width: 302px;
 }
 
@@ -322,7 +321,7 @@ body {
   z-index: 5;
   width: 72px;
   height: 74px;
-  margin: 99px auto 0;
+  margin: 90px auto 0;
   overflow: hidden;
   border-radius: 25%;
   background-image: linear-gradient(#7751db, #50329c);
@@ -358,5 +357,5 @@ body {
 }
 
 .logo-text:nth-last-child(1) {
-  margin-top: 82px;
+  margin-top: 80px;
 }

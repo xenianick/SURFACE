@@ -1,7 +1,7 @@
 @media (min-width: 961px) {
 
   .main-header {
-    padding: 45px 193px 0;
+    padding: 45px 190px 0;
     background-image: url(../images/football_1920.jpg);
   }
   
@@ -11,13 +11,126 @@
   }
 
   .main-header-title {
+    max-width: 1600px;
+    height: 23%;
     font-size: 90px;
     line-height: 1.11;
     letter-spacing: 4.5px;
   }
 
+  .first-row {
+    margin-left: 0;
+  }
 
+  .btn-container {
+    max-width: 674px;
+    height: 20.5%;
+  }
 
+  .athlets .benefits-img-container {
+    width: initial;
+    top: 27px;
+    left: initial;
+  }
+
+  .players .benefits-img-container {
+    width: initial;
+    top: 23px;
+    right: 125px;
+  }
+
+  .athlets .benefits-img {
+    width: initial;
+  }
+
+  .players .benefits-img {
+    width: initial;
+  }
+
+  .benefits-title {
+    width: 37.1%;
+    margin-top: 115px;
+    margin-bottom: 40px;
+    padding-left: 0;
+    padding-right: 10.42vw;
+  }
+
+  .players .benefits-title {
+    padding-left: 197px;
+    margin-bottom: 55px;
+  }
+
+  .article-title {
+    font-size: 36px;
+    line-height: 0.94;
+    letter-spacing: 1.8px;
+  }
+
+  .article-wrapper {
+    width: 37.1%;
+    padding: 60px 10.42vw 55px 197px;
+  }
+
+  .players .article-wrapper {
+    width: 40%;
+  }
+
+  .article-text {
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+  }
+
+  .opportunities-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .opportunities-img-container {
+    display: flex;
+    max-width: 50%;
+    height: auto;
+  }
+
+  .opportunities-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 0;
+  }
+
+  .opportunities-block:nth-child(even) .opportunities-img-container {
+    order: 2;
+  }
+
+  .opportunities-block:nth-child(even) .opportunities-content {
+    order: 1;
+  }
+
+  .index-number {
+    width: 168px;
+    height: 155px;
+    top: 211px;
+    left: -84px;
+  }
+
+  .opportunities-block:nth-child(even) .opportunities-content .index-number {
+    top: 211px;
+    right: -84px;
+    left: initial;
+  }
+
+  .opportunities-wrapper {
+    width: 64.375%;
+  }
+
+  .opportunities-title {
+    margin: 0 0 3.9vw;
+  }
 
 
 

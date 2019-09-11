@@ -229,6 +229,11 @@
     background-image: url(../images/game_1280.jpg);
   }
 
+  .main-footer-header {
+    height: 40%;
+    max-width: 705px;
+  }
+
   .app-icon {
     width: 130px;
     height: 137px;
@@ -236,10 +241,6 @@
 
   .logo {
     height: 87px;
-  }
-
-  .footer-title-container {
-    height: 35%;
   }
 
   .footer-title {
@@ -255,10 +256,14 @@
   }
 
   .btn-container:nth-last-child(2) {
-    height: 10%;
+    height: 43.6%;
+    align-items: flex-end;
   }
 
   .logo-text-container:nth-last-child(1) {
-    height: 10%;
+    height: 13.3%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 24px;
   }
 }

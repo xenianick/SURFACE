@@ -328,6 +328,16 @@
   background-color: #090a36;
 }
 
+.main-footer-header {
+  width: 100%;
+  max-width: 280px;
+  height: 38.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .app-icon {
   position: relative;
   z-index: 5;
@@ -346,8 +356,7 @@
 }
 
 .footer-title-container {
-  height: 17%;
-  width: 100%;
+  align-self: flex-end;
 }
 
 .footer-title {
@@ -373,7 +382,8 @@
 }
 
 .btn-container:nth-last-child(2) {
-  height: 20%;
+  height: 52%;
+  align-content: center;
 }
 
 @media (max-width: 319px) {

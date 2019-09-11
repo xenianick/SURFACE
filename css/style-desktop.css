@@ -114,12 +114,11 @@
   .index-number {
     width: 168px;
     height: 155px;
-    top: 211px;
+    top: 0;
     left: -84px;
   }
 
   .opportunities-block:nth-child(even) .opportunities-content .index-number {
-    top: 211px;
     right: -84px;
     left: initial;
   }
@@ -132,28 +131,46 @@
     margin: 0 0 3.9vw;
   }
 
+  .main-footer {
+    padding-top: 250px;
+  }
 
+  .main-footer-header {
+    max-width: 900px;
+    height: 49.4%;
+    flex-wrap: nowrap;
+  }
 
+  .app-icon {
+    flex-shrink: 0;
+    margin-right: 37px;
+  }
 
+  .footer-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: initial;
+  }
 
+  .footer-title {
+    margin-bottom: 15px;
+  }
 
+  .footer-text {
+    font-size: 30px;
+    line-height: 1.13;
+  }
 
+  .btn-container:nth-last-child(2) {
+    height: 63%;
+    align-items: flex-start;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .logo-text-container:nth-last-child(1) {
+    height: 19.3%;
+    padding: 0;
+    align-items: flex-start;
+  }
 }

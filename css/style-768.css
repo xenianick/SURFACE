@@ -97,23 +97,24 @@
   }
 
   .benefits-img-container {
-    display: block;
     height: auto;
+    display: block;
     position: absolute;
     overflow-x: hidden;
     position: absolute;
-    z-index: 10;
+    z-index: 11;
   }
 
   .athlets .benefits-img-container {
+    width: 450px;
     top: 94px;
     left: -170px;
   }
 
   .players .benefits-img-container {
+    width: 440px;
     top: 40px;
-    right: -250px;
-    overflow-x: hidden;
+    right: 0px;
   }
 
   .athlets .benefits-img {
@@ -122,7 +123,6 @@
 
   .players .benefits-img {
     width: 690px;
-    overflow-x: hidden;
   }
 
   .article-header {

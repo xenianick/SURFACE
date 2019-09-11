@@ -1,16 +1,5 @@
-
-@font-face {
-  font-family: 'OpenSans-Regular';
-  src: url(../fonts/OpenSans-Regular.ttf);
-  font-weight: 400;
-  font-style: normal;
-}
-  
-@font-face {
-  font-family: 'OpenSans-Bold';
-  src: url(../fonts/OpenSans-Bold.ttf);
-  font-weight: 700;
-  font-style: normal;
+body {
+  font-family: 'OpenSans-Regular', sans-serif;
 }
 
 body, p, h1, h2, h3, h4, h5, h6, button {
@@ -24,4 +13,31 @@ a {
 
 path {
   fill: #ffffff;
+}
+
+.btn:hover {
+  color: #5e3db3;
+  background-color: #ffffff;
+}
+
+.btn:hover .btn-content .apple-logo path, .btn:hover .btn-content .google-logo path {
+  fill: #5e3db3;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
 }

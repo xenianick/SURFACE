@@ -1,3 +1,46 @@
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) {
+
+  .main-header {
+    padding: 45px 193px 0;
+    background-image: url(../images/football_1920.jpg);
+  }
+  
+  .logo-text {
+    width: 191px;
+    height: 52px;
+  }
+
+  .main-header-title {
+    font-size: 90px;
+    line-height: 1.11;
+    letter-spacing: 4.5px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

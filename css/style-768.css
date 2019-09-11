@@ -1,13 +1,13 @@
 @media (min-width: 641px) {
 
-  body {
-    font-family: 'OpenSans-Regular', sans-serif;
-  }
-  
   .main-header {
     height: 960px;
-    padding: 40px 57px 0;
+    padding: 40px 58px 0;
     background-image: url(../images/football_1280.jpg);
+  }
+
+  .logo-text-container {
+    height: 6.09%;
   }
 
   .logo-text {
@@ -17,62 +17,50 @@
 
   .main-header-title {
     width: 100%;
-    margin: 22.1vw auto 39.7vw;
-    font-size: 8.3vw;
-    letter-spacing: 0.40vw;
+    max-width: 650px;
+    height: 40%;
+    font-size: 63.5px;
+    letter-spacing: 3.18px;
   }
   
   .first-row {
-    margin-left: 4.3vw;
-    margin-bottom: 10px;
+    margin-left: 32px;
+    margin-bottom: 17px;
   }
-  
+
   .second-row {
-    margin-left: 17.9vw;
+    margin-left: 137px;
   }
 
   .btn-container {
     flex-wrap: nowrap;
-    max-width: 100%;
-    justify-content: center;
+    justify-content: space-between;
+    max-width: 658px;
+    height: 18.3%;
   }
 
   .btn-link {
-    max-width: 311px;
-    width: 40.5vw;
-  }
-
-  .btn-link:nth-child(1) {
-    margin-right: 30px;
+    width: 47.8%;
+    max-width: 312px;
+    height: 77px;
   }
 
   .btn {
-    flex-shrink: 1;
-    width: 40.5vw;
-    max-width: 311px;
+    max-width: 312px;
     height: 77px;
-    display: flex;
-    justify-content: center;
-    border-radius: 35px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
     box-shadow: 8px 13.9px 24px 0 #0a0e34;
   }
 
-  .btn-text {
-    font-size: 14px;
-    letter-spacing: 0.7px;
+  .btn-content-container {
+    width: initial;
   }
 
-  .btn-content {
-    width: 220px;
-    margin-left: 5%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
   .apple-logo, .google-logo {
     width: 40px;
-    margin-right: 26px;
+    margin-right: 29px;
   }
   
   .app-store-btn .btn-text {
@@ -90,43 +78,58 @@
     z-index: 11;
   }
 
-  .athlets .benefits-img-container {
-    width: 440px;
-    position: absolute;
-    top: 90px;
-    left: -165px;
+  .benefits-title-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
   }
 
-  .players .benefits-img-container {
-    width: 440px;
+  .players .benefits-title-container {
+    justify-content: flex-start;
+  }
+
+  .benefits-title {
+    width: 62.11%;
+    margin-top: 82px;
+    font-size: 80px;
+    line-height: 0.75;
+    padding-left: 30px;
+  }
+
+  .benefits-img-container {
+    display: block;
     height: auto;
+    position: absolute;
     overflow-x: hidden;
     position: absolute;
     z-index: 10;
+  }
+
+  .athlets .benefits-img-container {
+    top: 94px;
+    left: -170px;
+  }
+
+  .players .benefits-img-container {
     top: 40px;
-    right: 0;
+    right: -250px;
+    overflow-x: hidden;
+  }
+
+  .athlets .benefits-img {
+    width: 450px;
   }
 
   .players .benefits-img {
     width: 690px;
+    overflow-x: hidden;
   }
 
-  .benefits-title {
-    margin-top: 82px;
-    font-size: 80px;
-    line-height: 0.75;
-  }
-
-  .athlets .benefits-title {
-    padding-left: 293px;
-  }
-
-  .players .benefits-title {
-    padding-left: 35px;
+  .article-header {
+    margin-bottom: 18px;
   }
 
   .article-title {
-    margin-bottom: 10px;
     font-size: 32px;
     letter-spacing: 1.6px;
   }
@@ -144,32 +147,36 @@
     border-radius: 2px;
   }
 
+  .article-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0;
+  }
+
   .article-content:nth-child(1) {
+    padding-top: 0;
     background-color: transparent; 
   }
 
-  .athlets .article-content {
-    padding: 40px 0 40px 293px;
-    width: 100%
+  .players .article-content {
+    justify-content: flex-start;
   }
 
-  .players .article-content {
-    padding: 40px 0 40px 35px;
-    width: 100%
+  .article-wrapper {
+    width: 57.7%;
+    padding: 44px 33px 36px 33px;
+  }
+
+  .players .article-wrapper {
+    width: 53%;
   }
 
   .article-text {
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.8px;
-  }
-
-  .athlets .article-text {
-    width: 94%;
-  }
-
-  .players .article-text {
-    width: 55%;
   }
 
   .opportunities-content {
@@ -214,19 +221,17 @@
 
   .main-footer {
     height: 960px;
-    padding: 0 30px;
+    padding: 126px 30px;
     background-image: url(../images/game_1280.jpg);
   }
 
   .app-icon {
     width: 130px;
     height: 137px;
-    margin: 16.27vw auto 0;
   }
 
   .logo {
     height: 85px;
-    margin: 26px auto;
   }
 
   .footer-title {
@@ -241,26 +246,5 @@
     font-size: 4.75vw;
     line-height: 1.64;
     letter-spacing: normal;
-  }
-}
-
-@media (min-width: 769px) {
-  .main-header-title {
-    width: 700px;
-    margin: 169px auto 305px;
-    font-size: 64px;
-  }
-  
-  .first-row {
-    margin-left: 33px;
-  }
-
-  .second-row {
-    width: 80%;
-    margin-left: 140px;
-  }
-
-  .main-footer {
-    height: 125vw;
   }
 }

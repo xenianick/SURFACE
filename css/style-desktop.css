@@ -1,7 +1,7 @@
 @media (min-width: 961px) {
 
   .main-header {
-    padding: 45px 190px 0;
+    padding: 45px 60px 0;
     background-image: url(../images/football_1920.jpg);
   }
   
@@ -11,7 +11,7 @@
   }
 
   .main-header-title {
-    max-width: 1600px;
+    max-width: 1550px;
     height: 23%;
     font-size: 90px;
     line-height: 1.11;

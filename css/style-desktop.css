@@ -209,4 +209,11 @@
       padding-left: 20px;
     }
   }
+
+  @media (max-width: 1342px) {
+
+    .main-header-title {
+      max-width: 842px;
+    }
+  }
 }

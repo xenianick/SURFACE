@@ -38,14 +38,14 @@ picture {
 
 @font-face {
   font-family: 'OpenSans-Regular';
-  src: url(../fonts/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
   
 @font-face {
   font-family: 'OpenSans-Bold';
-  src: url(../fonts/OpenSans-Bold.ttf);
+  src: url(../fonts/OpenSans-Bold.woff);
   font-weight: 700;
   font-style: normal;
 }

@@ -133,7 +133,7 @@
 }
 
 .google-play-btn .btn-text {
-  width: 60px;
+  width: 70px;
 }
 
 .store-name {
@@ -392,6 +392,10 @@
   align-content: center;
 }
 
+.logo-text-container:nth-last-child(1) {
+  height: 10%;
+}
+
 @media (max-width: 319px) {
 
   .main-header-title {
@@ -433,6 +437,4 @@
   .footer-text {
     font-size: 4.375vw;
   }
-
-
 }

@@ -4,6 +4,10 @@
     padding: 45px 60px 0;
     background-image: url(../images/football_1920.jpg);
   }
+
+  .logo-text-container {
+    height: 5.7%;
+  }
   
   .logo-text {
     width: 191px;
@@ -12,7 +16,8 @@
 
   .main-header-title {
     max-width: 1550px;
-    height: 23%;
+    height: 74.2%;
+    justify-content: center;
     font-size: 90px;
     line-height: 1.11;
     letter-spacing: 4.5px;

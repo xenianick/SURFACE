@@ -116,12 +116,12 @@
     position: absolute;
   }
 
-  .athlets .benefits-img-container {
+  .athlets .benefits-img-wrapper {
     top: 94px;
     right: 0;
   }
 
-  .players .benefits-img-container {
+  .players .benefits-img-wrapper {
     top: 40px;
     left: 0;
     right: initial;

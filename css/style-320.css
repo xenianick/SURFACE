@@ -60,12 +60,14 @@
 
 .first-row {
   margin-bottom: 25px;
+  font-size: inherit;
 }
 
 .second-row {
   display: flex;
   align-self: flex-end;
   margin-left: 44px;
+  font-size: inherit;
 }
 
 .btn-container {

@@ -1,0 +1,51 @@
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'OpenSans-Regular', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6, button {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+path {
+  fill: #ffffff;
+}
+
+.btn:hover {
+  color: #5e3db3;
+  background-color: #ffffff;
+}
+
+.btn:hover .btn-content .apple-logo path, .btn:hover .btn-content .google-logo path {
+  fill: #5e3db3;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+picture {
+  width: inherit;
+  height: inherit;
+  font-size: 0;
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url(../fonts/OpenSans-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}

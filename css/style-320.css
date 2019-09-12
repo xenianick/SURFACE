@@ -12,6 +12,7 @@
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  background-color:  #090a36;
 }
 
 .main-header::after {
@@ -319,6 +320,7 @@
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  background-color:  #090a36;
   overflow: hidden;
 }
   

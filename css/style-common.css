@@ -1,8 +1,10 @@
 body {
+  max-width: 1920px;
+  margin: 0 auto;
   font-family: 'OpenSans-Regular', sans-serif;
 }
 
-body, p, h1, h2, h3, h4, h5, h6, button {
+p, h1, h2, h3, h4, h5, h6, button {
   margin: 0;
   padding: 0;
 }
@@ -26,6 +28,12 @@ path {
 
 .btn:focus {
   outline: none;
+}
+
+picture {
+  width: inherit;
+  height: inherit;
+  font-size: 0;
 }
 
 @font-face {

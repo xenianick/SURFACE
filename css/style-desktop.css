@@ -32,16 +32,27 @@
     height: 20.5%;
   }
 
+  .athlets .benefits-img-wrapper{
+    width: 50%;
+  }
+
+  .players .benefits-img-wrapper{
+    left: 45%;
+    width: 55%;
+  }
+
   .athlets .benefits-img-container {
     width: initial;
     top: 27px;
+    right: 0;
     left: initial;
   }
 
   .players .benefits-img-container {
     width: initial;
     top: 23px;
-    right: 125px;
+    left: 0;
+    right: initial;
   }
 
   .athlets .benefits-img {
@@ -57,11 +68,11 @@
     margin-top: 115px;
     margin-bottom: 40px;
     padding-left: 0;
-    padding-right: 10.42vw;
+    padding-right: 10.42%;
   }
 
   .players .benefits-title {
-    padding-left: 197px;
+    padding-left: 10.26%;
     margin-bottom: 55px;
   }
 
@@ -73,11 +84,12 @@
 
   .article-wrapper {
     width: 37.1%;
-    padding: 60px 10.42vw 55px 197px;
+    padding: 60px 10.42% 55px 197px;
   }
 
   .players .article-wrapper {
     width: 40%;
+    padding-left: 10.26%;
   }
 
   .article-text {
@@ -93,7 +105,7 @@
     width: 100%;
   }
 
-  .opportunities-img-container {
+  .opportunities-img-wrapper {
     display: flex;
     max-width: 50%;
     height: auto;
@@ -108,7 +120,7 @@
     padding: 0;
   }
 
-  .opportunities-block:nth-child(even) .opportunities-img-container {
+  .opportunities-block:nth-child(even) .opportunities-img-wrapper {
     order: 2;
   }
 
@@ -119,13 +131,15 @@
   .index-number {
     width: 168px;
     height: 155px;
-    top: 0;
-    left: -84px;
+    top: 28%;
+    left: initial;
+    right: -84px;
+    bottom: initial;
   }
 
-  .opportunities-block:nth-child(even) .opportunities-content .index-number {
-    right: -84px;
-    left: initial;
+  .opportunities-block:nth-child(even) .opportunities-img-wrapper .index-number {
+    left: -84px;
+    right: initial;
   }
 
   .opportunities-wrapper {
@@ -177,5 +191,20 @@
     height: 19.3%;
     padding: 0;
     align-items: flex-start;
+  }
+
+  @media (max-width: 1240px) {
+
+    .opportunities-title {
+      font-size: 5vw;
+    }
+    
+    .opportunities-text {
+      font-size: 2vw;
+    }
+
+    .opportunities-block:nth-child(odd) .opportunities-title, .opportunities-block:nth-child(odd) .opportunities-text {
+      padding-left: 20px;
+    }
   }
 }

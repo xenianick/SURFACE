@@ -77,7 +77,6 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    z-index: 11;
   }
 
   .benefits-title-container {
@@ -98,25 +97,34 @@
     padding-left: 30px;
   }
 
-  .benefits-img-container {
-    height: auto;
-    display: block;
+  .benefits-img-wrapper {
+    height: 100%;
     position: absolute;
     overflow-x: hidden;
+  }
+
+  .athlets .benefits-img-wrapper{
+    width: 35%;
+  }
+
+  .players .benefits-img-wrapper{
+    left: 43%;
+    width: 57%;
+  }
+
+  .benefits-img-container {
     position: absolute;
-    z-index: 11;
   }
 
   .athlets .benefits-img-container {
-    width: 450px;
     top: 94px;
-    left: -170px;
+    right: 0;
   }
 
   .players .benefits-img-container {
-    width: 440px;
     top: 40px;
-    right: 0px;
+    left: 0;
+    right: initial;
   }
 
   .athlets .benefits-img {
@@ -184,17 +192,12 @@
     line-height: 1.75;
     letter-spacing: 0.8px;
   }
-
-  .opportunities-content {
-    padding: 0 35px 95px 30px;
-    box-sizing: border-box;
-    position: relative;
-  }
   
   .index-number {
     width: 116px;
     height: 116px;
-    top: -170px;
+    left: 33px;
+    bottom: -36px;
   }
   
   .index-number-container>span {
@@ -209,6 +212,12 @@
     opacity: 0.3;
     bottom: -10px;
     border-radius: 2px;
+  }
+
+  .opportunities-content {
+    padding: 0 35px 95px 30px;
+    box-sizing: border-box;
+    position: relative;
   }
   
   .opportunities-title {

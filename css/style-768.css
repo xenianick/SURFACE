@@ -100,29 +100,29 @@
   .benefits-img-wrapper {
     height: 100%;
     position: absolute;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
-  .athlets .benefits-img-wrapper{
+  .athlets .benefits-img-wrapper {
     width: 35%;
+    top: 94px;
   }
 
-  .players .benefits-img-wrapper{
-    left: 43%;
+  .players .benefits-img-wrapper {
     width: 57%;
+    top: 40px;
+    left: 43%;
   }
 
   .benefits-img-container {
     position: absolute;
   }
 
-  .athlets .benefits-img-wrapper {
-    top: 94px;
+  .athlets .benefits-img-container {
     right: 0;
   }
 
-  .players .benefits-img-wrapper {
-    top: 40px;
+  .players .benefits-img-container {
     left: 0;
     right: initial;
   }

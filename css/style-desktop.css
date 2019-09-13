@@ -6,11 +6,11 @@
     background-image: url(../images/football_1920.jpg);
   }
 
-  .logo-text-container {
+  .logo-text-icon-container {
     height: 5.7%;
   }
   
-  .logo-text {
+  .logo-text-icon {
     width: 191px;
     height: 52px;
   }
@@ -24,7 +24,7 @@
     letter-spacing: 4.5px;
   }
 
-  .first-row {
+  .main-header-title_first-row {
     margin-left: 0;
   }
 
@@ -33,38 +33,29 @@
     height: 20.5%;
   }
 
-  .athlets .benefits-img-wrapper{
+  .article-athlets .article-img-container {
     width: 50%;
   }
 
-  .players .benefits-img-wrapper{
-    left: 45%;
-    width: 55%;
-  }
-
-  .athlets .benefits-img-container {
+  .article-athlets .article-img-wrapper {
     width: initial;
     top: 27px;
-    right: 0;
     left: initial;
   }
 
-  .players .benefits-img-container {
+  .article-athlets .article-img {
     width: initial;
+  }
+
+  .article-players .article-img-wrapper {
     top: 23px;
-    left: 0;
-    right: initial;
   }
 
-  .athlets .benefits-img {
+  .article-players .article-img {
     width: initial;
   }
 
-  .players .benefits-img {
-    width: initial;
-  }
-
-  .benefits-title {
+  .article-title {
     width: 37.1%;
     margin-top: 115px;
     margin-bottom: 40px;
@@ -72,13 +63,13 @@
     padding-right: 10.42%;
   }
 
-  .players .benefits-title {
-    padding-left: 10.26%;
+  .article-players .article-title {
     margin-bottom: 55px;
+    padding-left: 10.26%;
     background-color: transparent;
   }
 
-  .article-title {
+  .article-subtitle {
     font-size: 36px;
     line-height: 0.94;
     letter-spacing: 1.8px;
@@ -89,7 +80,7 @@
     padding: 60px 10.42% 55px 197px;
   }
 
-  .players .article-wrapper {
+  .article-players .article-wrapper {
     width: 40%;
     padding-left: 10.26%;
   }
@@ -101,36 +92,32 @@
   }
 
   .opportunities-block {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
   }
 
-  .opportunities-img-wrapper {
-    display: flex;
+  .opportunities-block-img-wrapper {
     max-width: 50%;
     height: auto;
+    display: flex;
   }
 
-  .opportunities-content {
+  .opportunities-block-content {
+    width: 50%;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    padding: 0;
   }
 
-  .opportunities-block:nth-child(even) .opportunities-img-wrapper {
+  .opportunities-block:nth-child(even) .opportunities-block-img-wrapper {
     order: 2;
   }
 
-  .opportunities-block:nth-child(even) .opportunities-content {
-    order: 1;
-  }
-
-  .index-number {
+  .opportunities-block-index-number {
     width: 168px;
     height: 155px;
     top: 28%;
@@ -139,35 +126,40 @@
     bottom: initial;
   }
 
-  .opportunities-block:nth-child(even) .opportunities-img-wrapper .index-number {
+  .opportunities-block:nth-child(even) .opportunities-block-img-wrapper .opportunities-block-index-number {
     left: -84px;
     right: initial;
   }
 
-  .opportunities-wrapper {
+  .opportunities-block-wrapper {
     width: 64.375%;
   }
 
-  .opportunities-title {
+  .opportunities-block-title {
     margin: 0 0 3.9vw;
   }
 
   .main-footer {
     padding-top: 250px;
+    background-image: url(../images/game_1920.jpg);
   }
 
   .main-footer-header {
     max-width: 900px;
     height: 49.4%;
+  }
+
+  .main-footer-header-wrapper {
+    height: initial;
     flex-wrap: nowrap;
   }
 
   .app-icon {
-    flex-shrink: 0;
     margin-right: 37px;
+    flex-shrink: 0;
   }
 
-  .footer-title-container {
+  .main-footer-title-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -175,11 +167,7 @@
     align-self: initial;
   }
 
-  .footer-title {
-    margin-bottom: 15px;
-  }
-
-  .footer-text {
+  .main-footer-subtitle {
     font-size: 30px;
     line-height: 1.13;
   }
@@ -189,7 +177,7 @@
     align-items: flex-start;
   }
 
-  .logo-text-container:nth-last-child(1) {
+  .logo-text-icon-container:nth-last-child(1) {
     height: 19.3%;
     padding: 0;
     align-items: flex-start;
@@ -197,15 +185,15 @@
 
   @media (max-width: 1240px) {
 
-    .opportunities-title {
+    .opportunities-block-title {
       font-size: 5vw;
     }
     
-    .opportunities-text {
+    .opportunities-block-text {
       font-size: 2vw;
     }
 
-    .opportunities-block:nth-child(odd) .opportunities-title, .opportunities-block:nth-child(odd) .opportunities-text {
+    .opportunities-block:nth-child(odd) .opportunities-block-title, .opportunities-block:nth-child(odd) .opportunities-block-text {
       padding-left: 20px;
     }
   }

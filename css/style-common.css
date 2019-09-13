@@ -9,8 +9,10 @@ p, h1, h2, h3, h4, h5, h6, button {
   padding: 0;
 }
 
-a {
-  text-decoration: none;
+picture {
+  width: inherit;
+  height: inherit;
+  font-size: 0;
 }
 
 path {
@@ -22,18 +24,12 @@ path {
   background-color: #ffffff;
 }
 
-.btn:hover .btn-content .apple-logo path, .btn:hover .btn-content .google-logo path {
+.btn:hover .btn-content .btn-logo path {
   fill: #5e3db3;
 }
 
 .btn:focus {
   outline: none;
-}
-
-picture {
-  width: inherit;
-  height: inherit;
-  font-size: 0;
 }
 
 @font-face {

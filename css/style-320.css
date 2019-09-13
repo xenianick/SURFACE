@@ -27,13 +27,13 @@
   background-color: #090a36;
 }
 
-.logo-text-container {
+.logo-text-icon-container {
   height: 7%;
   position: relative;
   z-index: 4;
 }
 
-.logo-text {
+.logo-text-icon {
   width: 133px;
   height: 36px;
   position: relative;
@@ -59,22 +59,22 @@
   color: #ffffff;
 }
 
-.first-row {
+.main-header-title_first-row {
   margin-bottom: 25px;
   font-size: inherit;
 }
 
-.second-row {
+.main-header-title_second-row {
+  margin-left: 44px;
   display: flex;
   align-self: flex-end;
-  margin-left: 44px;
   font-size: inherit;
 }
 
 .btn-container {
   width: 100%;
-  height: 48.5%;
   max-width: 280px;
+  height: 48.5%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -87,6 +87,7 @@
   margin-bottom: 14px;
   position: relative;
   z-index: 2;
+  border-radius: 35px;
 }
 
 .btn {
@@ -104,10 +105,10 @@
   border: none;
   border-radius: 35px;
   background-color: #5e3db3;
-  cursor: pointer;
+  
 }
 
-.btn-content-container {
+.btn-wrapper {
   width: 115px;
   display: flex;
   justify-content: flex-start;
@@ -119,7 +120,7 @@
   align-items: center;
 }
 
-.apple-logo, .google-logo {
+.btn-logo {
   width: 22px;
   margin-right: 10px;
 }
@@ -141,7 +142,7 @@
   font-weight: 700;
 }
 
-.benefits-title {
+.article-title {
   margin: 20px 0 14px;
   padding-left: 20px;
   font-family: 'OpenSans-Bold', sans-serif;
@@ -152,17 +153,17 @@
   color: #e7e7e7;
 }
 
-.benefits-img-container {
+.article-img-wrapper {
   height: 224px;
   display: flex;
   justify-content: center;
 }
 
-.athlets .benefits-img {
+.article-athlets .article-img {
   width: 175px;
 }
 
-.players .benefits-img {
+.article-players .article-img {
   width: 302px;
 }
 
@@ -188,13 +189,17 @@
   background-color: #5e3db3;
 }
 
+.article-players .article-content:nth-child(3) {
+  background-color: #090a36;
+}
+
 .article-header {
   margin-bottom: 20px;
   display: flex;
   align-items: stretch;
 }
 
-.article-title {
+.article-subtitle {
   font-family: 'OpenSans-Bold', sans-serif;
   font-size: 23px;
   font-weight: bold;
@@ -216,6 +221,10 @@
   color: #000000;
 }
 
+.article-players .article-content:nth-child(3) .article-index-number {
+  color: #8761e0;
+}
+
 .article-index-number::before {
   content: "";
   width: 17px;
@@ -230,29 +239,21 @@
   background-color: #ffffff;
 }
 
-.players .article-content:nth-child(3) {
-  background-color: #090a36;
-}
-
-.players .article-content:nth-child(3) .article-index-number {
-  color: #8761e0;
-}
-
 .article-text {
   font-size: 15px;
   line-height: 1.2;
   letter-spacing: 0.75px;
 }
 
-.opportunities-img-wrapper {
+.opportunities-block-img-wrapper {
   position: relative;
 }
 
-.opportunities-img {
+.opportunities-block-img {
   width: 100%;
 }
 
-.index-number {
+.opportunities-block-index-number {
   width: 70px;
   height: 70px;
   display: flex;
@@ -265,7 +266,7 @@
   background-color: #5e3db3;
 }
 
-.index-number-container>span {
+.opportunities-block-index-number-container span {
   position: relative;
   font-family: 'OpenSans-Bold', sans-serif;
   font-size: 14px;
@@ -275,7 +276,7 @@
   color: #ffffff;
 }
 
-.index-number-container>span::before {
+.opportunities-block-index-number-container span::before {
   content: "";
   width: 17px;
   height: 4px;
@@ -286,12 +287,12 @@
   background-color: #ffffff;
 }
 
-.opportunities-content {
+.opportunities-block-content {
   padding: 0 20px 75px;
   box-sizing: border-box;
 }
 
-.opportunities-title {
+.opportunities-block-title {
   margin: 30px 0 18px;
   font-family: 'OpenSans-Bold', sans-serif;
   font-size: 28px;
@@ -302,7 +303,7 @@
   color: #e7e7e7;
 }
 
-.opportunities-text {
+.opportunities-block-text {
   line-height: 1.25;
   letter-spacing: 0.8px;
 }
@@ -340,34 +341,37 @@
   width: 100%;
   max-width: 280px;
   height: 38.5%;
+}
+
+.main-footer-header-wrapper {
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
 }
 
 .app-icon {
-  position: relative;
-  z-index: 5;
   width: 72px;
   height: 74px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  position: relative;
+  z-index: 5;
   border-radius: 25%;
   background-image: linear-gradient(#7751db, #50329c);
+  overflow: hidden;
 }
 
 .logo {
   height: 50px;
 }
 
-.footer-title-container {
+.main-footer-title-container {
   align-self: flex-end;
 }
 
-.footer-title {
+.main-footer-title {
   position: relative;
   z-index: 6;
   font-family: 'OpenSans-Bold', sans-serif;
@@ -379,7 +383,7 @@
   color: #ffffff;
 }
 
-.footer-text {
+.main-footer-subtitle {
   position: relative;
   z-index: 7;
   font-size: 14px;
@@ -391,10 +395,9 @@
 
 .btn-container:nth-last-child(2) {
   height: 52%;
-  align-content: center;
 }
 
-.logo-text-container:nth-last-child(1) {
+.logo-text-icon-container:nth-last-child(1) {
   height: 10%;
 }
 
@@ -404,39 +407,39 @@
     font-size: 8.75vw;
   }
 
-  .benefits-title {
+  .article-title {
     font-size: 15.625vw;
   }
 
-  .benefits-img-container {
+  .article-img-wrapper {
     height: 70vw;
   }
 
-  .athlets picture {
+  .article-athlets picture {
     width: 50%
   }
 
-  .athlets .benefits-img {
+  .article-athlets .article-img {
     width: 100%;
   }
 
-  .players picture {
+  .article-players picture {
     width: 100%
   }
   
-  .players .benefits-img {
+  .article-players .article-img {
     width: 100%;
   }
 
-  .article-title {
+  .article-subtitle {
     font-size: 7.1875vw;
   }
 
-  .footer-title {
+  .main-footer-title {
     font-size: 10vw;
   }
 
-  .footer-text {
+  .main-footer-subtitle {
     font-size: 4.375vw;
   }
 }

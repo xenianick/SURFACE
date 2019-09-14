@@ -5,10 +5,6 @@
     padding: 45px 60px 0;
     background-image: url(../images/football_1920.jpg);
   }
-
-  .logo-text-icon-container {
-    height: 5.7%;
-  }
   
   .logo-text-icon {
     width: 191px;
@@ -17,8 +13,7 @@
 
   .main-header-title {
     max-width: 1550px;
-    height: 74.2%;
-    justify-content: center;
+    margin: 265px 0 212px;
     font-size: 90px;
     line-height: 1.11;
     letter-spacing: 4.5px;
@@ -26,11 +21,12 @@
 
   .main-header-title_first-row {
     margin-left: 0;
+    margin-bottom: 0;
   }
 
   .btn-container {
     max-width: 674px;
-    height: 20.5%;
+    margin-bottom: 110px;
   }
 
   .article-athlets .article-img-container {
@@ -91,20 +87,20 @@
     letter-spacing: 1px;
   }
 
-  .opportunities-block {
+  .article-block {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .opportunities-block-img-wrapper {
+  .article-block-img-wrapper {
     max-width: 50%;
     height: auto;
     display: flex;
   }
 
-  .opportunities-block-content {
+  .article-block-content {
     width: 50%;
     padding: 0;
     display: flex;
@@ -113,11 +109,11 @@
     align-items: center;
   }
 
-  .opportunities-block:nth-child(even) .opportunities-block-img-wrapper {
+  .article-block:nth-child(even) .article-block-img-wrapper {
     order: 2;
   }
 
-  .opportunities-block-index-number {
+  .article-block-index-number {
     width: 168px;
     height: 155px;
     top: 28%;
@@ -126,31 +122,27 @@
     bottom: initial;
   }
 
-  .opportunities-block:nth-child(even) .opportunities-block-img-wrapper .opportunities-block-index-number {
+  .article-block:nth-child(even) .article-block-img-wrapper .article-block-index-number {
     left: -84px;
     right: initial;
   }
 
-  .opportunities-block-wrapper {
+  .article-block-wrapper {
     width: 64.375%;
   }
 
-  .opportunities-block-title {
+  .article-block-title {
     margin: 0 0 3.9vw;
   }
 
   .main-footer {
-    padding-top: 250px;
+    padding-top: 229px;
     background-image: url(../images/game_1920.jpg);
   }
 
   .main-footer-header {
     max-width: 900px;
-    height: 49.4%;
-  }
-
-  .main-footer-header-wrapper {
-    height: initial;
+    margin-bottom: 151px;
     flex-wrap: nowrap;
   }
 
@@ -160,11 +152,9 @@
   }
 
   .main-footer-title-container {
+    margin-top: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-self: initial;
   }
 
   .main-footer-subtitle {
@@ -173,27 +163,24 @@
   }
 
   .btn-container:nth-last-child(2) {
-    height: 63%;
-    align-items: flex-start;
+    margin-bottom: 262px;
   }
 
-  .logo-text-icon-container:nth-last-child(1) {
-    height: 19.3%;
-    padding: 0;
-    align-items: flex-start;
+  .logo-text-icon:nth-last-child(1) {
+    margin-bottom: 52px;
   }
 
   @media (max-width: 1240px) {
 
-    .opportunities-block-title {
+    .article-block-title {
       font-size: 5vw;
     }
     
-    .opportunities-block-text {
+    .article-block-text {
       font-size: 2vw;
     }
 
-    .opportunities-block:nth-child(odd) .opportunities-block-title, .opportunities-block:nth-child(odd) .opportunities-block-text {
+    .article-block:nth-child(odd) .article-block-title, .article-block:nth-child(odd) .article-block-text {
       padding-left: 20px;
     }
   }

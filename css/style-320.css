@@ -1,11 +1,10 @@
 
 .main-header {
-  height: 568px;
+  width: 100%;
   padding: 33px 20px 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   position: relative;
   background-image: url(../images/football_767.jpg);
@@ -28,7 +27,6 @@
 }
 
 .logo-text-icon-container {
-  height: 7%;
   position: relative;
   z-index: 4;
 }
@@ -43,7 +41,7 @@
 .main-header-title {
   width: 100%;
   max-width: 280px;
-  height: 45.3%;
+  margin: 132px 0 86px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -60,7 +58,8 @@
 }
 
 .main-header-title_first-row {
-  margin-bottom: 25px;
+  display: block;
+  margin-bottom: 21px;
   font-size: inherit;
 }
 
@@ -74,7 +73,7 @@
 .btn-container {
   width: 100%;
   max-width: 280px;
-  height: 48.5%;
+  margin-bottom: 84px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -84,10 +83,12 @@
   width: 100%;
   max-width: 280px;
   height: 35px;
-  margin-bottom: 14px;
   position: relative;
   z-index: 2;
-  border-radius: 35px;
+}
+
+.btn-link:first-child {
+  margin-bottom: 14px;
 }
 
 .btn {
@@ -245,15 +246,16 @@
   letter-spacing: 0.75px;
 }
 
-.opportunities-block-img-wrapper {
+.article-block-img-wrapper {
   position: relative;
-}
-
-.opportunities-block-img {
   width: 100%;
 }
 
-.opportunities-block-index-number {
+.article-block-img {
+  width: 100%;
+}
+
+.article-block-index-number {
   width: 70px;
   height: 70px;
   display: flex;
@@ -266,7 +268,7 @@
   background-color: #5e3db3;
 }
 
-.opportunities-block-index-number-container span {
+.article-block-index-number-container span {
   position: relative;
   font-family: 'OpenSans-Bold', sans-serif;
   font-size: 14px;
@@ -276,7 +278,7 @@
   color: #ffffff;
 }
 
-.opportunities-block-index-number-container span::before {
+.article-block-index-number-container span::before {
   content: "";
   width: 17px;
   height: 4px;
@@ -287,12 +289,12 @@
   background-color: #ffffff;
 }
 
-.opportunities-block-content {
+.article-block-content {
   padding: 0 20px 75px;
   box-sizing: border-box;
 }
 
-.opportunities-block-title {
+.article-block-title {
   margin: 30px 0 18px;
   font-family: 'OpenSans-Bold', sans-serif;
   font-size: 28px;
@@ -303,18 +305,17 @@
   color: #e7e7e7;
 }
 
-.opportunities-block-text {
+.article-block-text {
   line-height: 1.25;
   letter-spacing: 0.8px;
 }
 
 .main-footer {
-  height: 568px;
+  width: 100%;
   padding: 99px 20px 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   position: relative;
   background-image: url(../images/game_767.jpg);
@@ -340,11 +341,6 @@
 .main-footer-header {
   width: 100%;
   max-width: 280px;
-  height: 38.5%;
-}
-
-.main-footer-header-wrapper {
-  height: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -368,7 +364,7 @@
 }
 
 .main-footer-title-container {
-  align-self: flex-end;
+  margin-top: 45px;
 }
 
 .main-footer-title {
@@ -394,11 +390,11 @@
 }
 
 .btn-container:nth-last-child(2) {
-  height: 52%;
+  margin: 76px 0 82px;
 }
 
-.logo-text-icon-container:nth-last-child(1) {
-  height: 10%;
+.logo-text-icon:nth-last-child(1) {
+  margin-bottom: 10px;
 }
 
 @media (max-width: 319px) {

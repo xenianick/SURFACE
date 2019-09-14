@@ -2,13 +2,8 @@
 @media (min-width: 641px) {
 
   .main-header {
-    height: 960px;
     padding: 40px 58px 0;
     background-image: url(../images/football_1280.jpg);
-  }
-
-  .logo-text-icon-container {
-    height: 6.09%;
   }
 
   .logo-text-icon {
@@ -19,7 +14,7 @@
   .main-header-title {
     width: 100%;
     max-width: 650px;
-    height: 40%;
+    margin: 155px 0 316px;
     justify-content: flex-start;
     font-size: 63.5px;
     letter-spacing: 3.18px;
@@ -27,7 +22,7 @@
   
   .main-header-title_first-row {
     margin-left: 32px;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
   }
 
   .main-header-title_second-row {
@@ -36,7 +31,7 @@
 
   .btn-container {
     max-width: 658px;
-    height: 18.3%;
+    margin-bottom: 91px;
     flex-wrap: nowrap;
     justify-content: space-between;
   }
@@ -45,6 +40,10 @@
     width: 47.8%;
     max-width: 312px;
     height: 77px;
+  }
+
+  .btn-link:first-child {
+    margin-bottom: 0;
   }
 
   .btn {
@@ -194,20 +193,20 @@
     letter-spacing: 0.8px;
   }
   
-  .opportunities-block-index-number {
+  .article-block-index-number {
     width: 116px;
     height: 116px;
     left: 33px;
     bottom: -36px;
   }
   
-  .opportunities-block-index-number-container span {
+  .article-block-index-number-container span {
     font-size: 24px;
     line-height: 1.42;
     letter-spacing: 1.2px;
   }
   
-  .opportunities-block-index-number-container span::before {
+  .article-block-index-number-container span::before {
     width: 28px;
     height: 5px;
     opacity: 0.3;
@@ -215,38 +214,33 @@
     border-radius: 2px;
   }
 
-  .opportunities-block-content {
+  .article-block-content {
     padding: 0 35px 95px 30px;
     box-sizing: border-box;
     position: relative;
   }
   
-  .opportunities-block-title {
+  .article-block-title {
     margin: 90px 0 37px;
     font-size: 80px;
     line-height: 1;
     letter-spacing: normal;
   }
   
-  .opportunities-block-text {
+  .article-block-text {
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 1.2px;
   }
 
   .main-footer {
-    height: 960px;
     padding: 126px 30px 0;
     background-image: url(../images/game_1280.jpg);
   }
 
   .main-footer-header {
     max-width: 705px;
-    height: 74.5%;
-  }
-
-  .main-footer-header-wrapper {
-    height: 340px;
+    margin-bottom: 277px;
   }
 
   .app-icon {
@@ -256,6 +250,10 @@
 
   .logo {
     height: 87px;
+  }
+
+  .main-footer-title-container {
+    margin-top: 70px;
   }
 
   .main-footer-title {
@@ -271,14 +269,11 @@
   }
 
   .btn-container:nth-last-child(2) {
-    height: 15.9%;
-    align-items: flex-start;
+    margin: 0 0 55px;
   }
 
-  .logo-text-icon-container:nth-last-child(1) {
-    height: 9.6%;
-    display: flex;
-    align-items: flex-start;
+  .logo-text-icon:nth-last-child(1) {
+    margin-bottom: 24px;
   }
 
   @media (max-width: 761px) {

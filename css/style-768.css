@@ -14,19 +14,20 @@
   .main-header-title {
     width: 100%;
     max-width: 650px;
-    margin: 155px 0 316px;
+    margin: 165px 0 300px;
     justify-content: flex-start;
     font-size: 63.5px;
     letter-spacing: 3.18px;
   }
   
   .main-header-title_first-row {
-    margin-left: 32px;
-    margin-bottom: 15px;
+    margin-left: 28px;
+    margin-bottom: 0;
   }
 
   .main-header-title_second-row {
-    margin-left: 137px;
+    margin-left: 135px;
+    line-height: 1.25;
   }
 
   .btn-container {
@@ -94,7 +95,12 @@
     padding-left: 30px;
     font-size: 80px;
     line-height: 0.75;
-    }
+  }
+
+  .article-players .article-title {
+    margin: 82px 0 8px;
+    padding-left: 29px;
+  }
 
   .article-img-container {
     height: 100%;
@@ -116,7 +122,7 @@
   }
 
   .article-athlets .article-img {
-    width: 450px;
+    width: 435px;
   }
 
   .article-players .article-img-container {
@@ -140,7 +146,11 @@
   }
 
   .article-header {
-    margin-bottom: 18px;
+    margin-bottom: 12px;
+  }
+
+  .article-players .article-content:nth-child(2) .article-header {
+    margin-bottom: 15px;
   }
 
   .article-subtitle {
@@ -174,13 +184,34 @@
     background-color: transparent; 
   }
 
+  .article-content:nth-child(2) {
+    padding-top: 0;
+  }
+
+  .article-content:nth-child(3) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
   .article-players .article-content {
     justify-content: flex-start;
   }
 
+  .article-players .article-content:nth-child(2), .article-players .article-content:nth-child(3) {
+    padding-bottom: 0;
+  }
+
   .article-wrapper {
     width: 57.7%;
-    padding: 44px 33px 36px 33px;
+    padding: 44px 33px 34px 33px;
+  }
+
+  .article-content:nth-child(2) .article-wrapper, .article-content:nth-child(3) .article-wrapper {
+    padding-top: 28px;
+  }
+
+  .article-players .article-content:nth-child(2) .article-wrapper, .article-players .article-content:nth-child(3) .article-wrapper {
+    padding-top: 30px;
   }
 
   .article-players .article-wrapper {
@@ -197,7 +228,15 @@
     width: 116px;
     height: 116px;
     left: 33px;
-    bottom: -36px;
+    bottom: -33px;
+  }
+
+  .article-block:nth-of-type(4) .article-block-index-number, .article-block:nth-of-type(5) .article-block-index-number {
+    bottom: -22px;
+  }
+
+  .article-block-index-number-container {
+    transform: translateY(-8px);
   }
   
   .article-block-index-number-container span {
@@ -208,29 +247,54 @@
   
   .article-block-index-number-container span::before {
     width: 28px;
-    height: 5px;
+    height: 6px;
     opacity: 0.3;
-    bottom: -10px;
+    bottom: -9px;
     border-radius: 2px;
   }
 
   .article-block-content {
-    padding: 0 35px 95px 30px;
+    padding: 0 35px 97px 30px;
     box-sizing: border-box;
     position: relative;
   }
+
+  .article-block:nth-of-type(4) .article-block-content {
+    padding-bottom: 104px;
+  }
+
+  .article-block:nth-of-type(5) .article-block-content {
+    padding-bottom: 111px;
+  }
   
   .article-block-title {
-    margin: 90px 0 37px;
+    margin: 74px 0 26px -3px;
     font-size: 80px;
     line-height: 1;
     letter-spacing: normal;
+  }
+
+  .article-block:nth-of-type(4) .article-block-title {
+    margin-top: 65px;
+    margin-bottom: 23px;
+  }
+
+  .article-block:nth-of-type(5) .article-block-title {
+    margin-top: 66px;
+    margin-left: 0px;
+    margin-bottom: 24px;
   }
   
   .article-block-text {
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 1.2px;
+  }
+
+  .article-block:nth-of-type(5) .article-block-text {
+    margin-left: 1px;
+    padding-right: 15px;
+    box-sizing: border-box;
   }
 
   .main-footer {
@@ -240,7 +304,7 @@
 
   .main-footer-header {
     max-width: 705px;
-    margin-bottom: 277px;
+    margin-bottom: 275px;
   }
 
   .app-icon {
@@ -253,7 +317,7 @@
   }
 
   .main-footer-title-container {
-    margin-top: 70px;
+    margin-top: 72px;
   }
 
   .main-footer-title {

@@ -13,7 +13,7 @@
 
   .main-header-title {
     max-width: 1550px;
-    margin: 265px 0 212px;
+    margin: 278px 0 202px;
     font-size: 90px;
     line-height: 1.11;
     letter-spacing: 4.5px;
@@ -21,7 +21,11 @@
 
   .main-header-title_first-row {
     margin-left: 0;
-    margin-bottom: 0;
+    margin-bottom: -15px;
+  }
+
+  .main-header-title_second-row {
+    margin-right: 11px;
   }
 
   .btn-container {
@@ -31,6 +35,10 @@
 
   .article-athlets .article-img-container {
     width: 50%;
+  }
+
+  .article-players .article-img-container {
+    left: 42%;
   }
 
   .article-athlets .article-img-wrapper {
@@ -44,7 +52,7 @@
   }
 
   .article-players .article-img-wrapper {
-    top: 23px;
+    top: 22px;
   }
 
   .article-players .article-img {
@@ -60,8 +68,9 @@
   }
 
   .article-players .article-title {
+    margin-top: 117px;
     margin-bottom: 55px;
-    padding-left: 10.26%;
+    padding-left: 9.7%;
     background-color: transparent;
   }
 
@@ -73,12 +82,41 @@
 
   .article-wrapper {
     width: 37.1%;
-    padding: 60px 10.42% 55px 197px;
+    padding: 63px 10.42% 55px 197px;
   }
 
   .article-players .article-wrapper {
     width: 40%;
-    padding-left: 10.26%;
+    padding-top: 50px;
+    padding-left: 10%;
+  }
+
+  .article-container .article-content:nth-of-type(2) .article-wrapper, .article-container .article-content:nth-of-type(3) .article-wrapper {
+    padding-top: 55px;
+  }
+
+  .article-athlets .article-container .article-content:nth-of-type(2) .article-header {
+    margin-bottom: 23px;
+  }
+
+  .article-players .article-container .article-content:nth-of-type(2) .article-wrapper {
+    padding-bottom: 83px;
+  }
+
+  .article-players .article-container .article-content:nth-of-type(2) .article-header {
+    margin-bottom: 30px;
+  }
+
+  .article-players .article-container .article-content:nth-of-type(3) .article-header {
+    margin-bottom: 25px;
+  }
+
+  .article-header {
+    margin-bottom: 20px;
+  }
+
+  .article-athlets .article-header {
+    margin-bottom: 21px;
   }
 
   .article-text {
@@ -100,39 +138,101 @@
     display: flex;
   }
 
-  .article-block-content {
-    width: 50%;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  .article-block-img-wrapper img {
+    width: initial;
+    height: 38vw;
+  }
+
+  .article-block-img-wrapper img {
+    width: initial;
+    height: 38vw;
+    max-height: 730px;
+  }
+
+  .article-block-index-number {
+    width: 8.75vw;
+    max-width: 168px;
+    height: 8.07vw;
+    max-height: 155px;
+    top: 29%;
+    left: initial;
+    right: -9%;
+    bottom: initial;
   }
 
   .article-block:nth-child(even) .article-block-img-wrapper {
     order: 2;
   }
 
-  .article-block-index-number {
-    width: 168px;
-    height: 155px;
-    top: 28%;
-    left: initial;
-    right: -84px;
-    bottom: initial;
-  }
-
   .article-block:nth-child(even) .article-block-img-wrapper .article-block-index-number {
-    left: -84px;
+    left: -9%;
     right: initial;
   }
 
+  .article-block-content {
+    width: 50%;
+    margin-left: 6.4vw;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .article-block:nth-of-type(4) .article-block-content {
+    margin-left: 9.8%;
+    padding-bottom: 0;
+  }
+
+  .article-block:nth-of-type(5) .article-block-content {
+    padding-bottom: 0;
+  }
+
   .article-block-wrapper {
-    width: 64.375%;
+    width: 77%;
+  }
+
+  .article-block:nth-of-type(4) .article-block-wrapper {
+    width: 90%;
+  }
+
+  .article-block:nth-of-type(4) .article-block-wrapper {
+    margin-top: -21px;
   }
 
   .article-block-title {
-    margin: 0 0 3.9vw;
+    margin: 0 0 6vw;
+    padding-top: 11px;
+    box-sizing: border-box;
+  }
+
+  .article-block:nth-of-type(4) .article-block-title {
+    margin-top: 0;
+    margin-bottom: 75px;
+    padding-top: 0;
+  }
+
+  .article-block:nth-of-type(5) .article-block-title {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 109px;
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+
+  .article-block:nth-of-type(3) .article-block-text {
+    margin-top: -10px;
+    padding-right: 0;
+  }
+
+  .article-block:nth-of-type(4) .article-block-text {
+    margin-top: 0;
+    transform: translateY(-12px);
+  }
+
+  .article-block:nth-of-type(5) .article-block-text {
+    margin-top: -20px;
+    margin-left: 1px;
+    padding-right: 0;
   }
 
   .main-footer {
@@ -147,7 +247,8 @@
   }
 
   .app-icon {
-    margin-right: 37px;
+    margin-right: 30px;
+    margin-left: 18px;
     flex-shrink: 0;
   }
 
@@ -155,6 +256,10 @@
     margin-top: 0;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .main-footer-title {
+    margin-top: 9px;
   }
 
   .main-footer-subtitle {

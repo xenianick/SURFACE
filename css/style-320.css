@@ -47,9 +47,8 @@
   justify-content: flex-end;
   position: relative;
   z-index: 3;
-  font-family: 'OpenSans-Bold', sans-serif;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.15;
   letter-spacing: 1.4px;
   text-align: left;
@@ -147,9 +146,8 @@
 .article-title {
   margin: 12px 0 9px;
   padding-left: 20px;
-  font-family: 'OpenSans-Bold', sans-serif;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.2;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -216,9 +214,8 @@
 }
 
 .article-subtitle {
-  font-family: 'OpenSans-Bold', sans-serif;
   font-size: 23px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.48;
   letter-spacing: 1.15px;
   text-transform: uppercase;
@@ -231,9 +228,8 @@
 
 .article-index-number {
   position: relative;
-  font-family: 'OpenSans-Bold', sans-serif;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.9;
   letter-spacing: 0.7px;
   vertical-align: text-top;
@@ -288,9 +284,8 @@
 
 .article-block-index-number-container span {
   position: relative;
-  font-family: 'OpenSans-Bold', sans-serif;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 2.43;
   letter-spacing: 0.7px;
   color: #ffffff;
@@ -322,9 +317,8 @@
 
 .article-block-title {
   margin: 22px 0 15px;
-  font-family: 'OpenSans-Bold', sans-serif;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.21;
   letter-spacing: 1.4px;
   text-transform: uppercase;
@@ -405,9 +399,8 @@
 .main-footer-title {
   position: relative;
   z-index: 6;
-  font-family: 'OpenSans-Bold', sans-serif;
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;

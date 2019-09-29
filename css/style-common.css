@@ -1,7 +1,7 @@
 body {
   max-width: 1920px;
   margin: 0 auto;
-  font-family: 'OpenSans-Regular', sans-serif;
+  font-family: 'OpenSans', sans-serif;
 }
 
 p, h1, h2, h3, h4, h5, h6, button {
@@ -37,14 +37,14 @@ path {
 }
 
 @font-face {
-  font-family: 'OpenSans-Regular';
+  font-family: 'OpenSans';
   src: url(../fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
   
 @font-face {
-  font-family: 'OpenSans-Bold';
+  font-family: 'OpenSans';
   src: url(../fonts/OpenSans-Bold.woff);
   font-weight: 700;
   font-style: normal;
